@@ -5,10 +5,9 @@
 An NLTK-like corpus readers that works with TEI XML files compatible with the 
 [Capitains Tool Suite](http://capitains.org/pages/guidelines).
 
-This reader is designed to work together with the rest of the awesome stuff of the [CLTK](http://cltk.org/)
+This reader is designed to work together with the rest of the awesome stuff of the [CLTK](http://cltk.org/). It
 allows users to load the latest XML files from the Perseus Project and the 
-[1st 1000 Years of Greek](https://github.com/OpenGreekAndLatin/First1KGreek). It provides access to the usual methods and properties of an 
-[NLTK Corpus reader](http://www.nltk.org/howto/corpus.html).
+[1st 1000 Years of Greek](https://github.com/OpenGreekAndLatin/First1KGreek). It provides access to the usual methods and properties of an [NLTK Corpus reader](http://www.nltk.org/howto/corpus.html).
 
 Moreover, it allows users to access both words *and canonical citations*!
 
