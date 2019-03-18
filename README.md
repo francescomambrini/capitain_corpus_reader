@@ -35,6 +35,10 @@ Moreover, it allows users to access both words *and canonical citations*!
 
 ```
 
+Note that the corpus reader is heavily inspired (not to say I did a lot of copy/paste) by the `tei.py` [script](https://github.com/cltk/cltk/blob/c44eb1810c5a85b0409a2537177862468987bd13/cltk/corpus/greek/tei.py) in CLTK.
+
+The readers does pretty much the same things, but: a. reads the original TEI XML files, instead of converting them to txt b. implements a couple of new methods to get citable words and citable sentences (as in the sample code above).
+
 ## Requirements
 
 Python 3! I tested it with 3.4 and 3.6.
